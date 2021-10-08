@@ -1,0 +1,115 @@
+.ant-layout-header {
+  height: 64px;
+  padding: 0px !important;
+  line-height: 64px;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #e1e1e1;
+
+  .logo {
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .ant-menu {
+    border: none;
+    background: transparent;
+    margin-left: 20px;
+
+    .ant-menu-submenu {
+      border: none !important;
+    }
+
+    .ant-menu-item {
+      border: none !important;
+    }
+
+    .ant-menu-item a:hover {
+      color: #ccc !important;
+    }
+  }
+
+  .ant-menu-horizontal > .ant-menu-item:hover,
+  .ant-menu-horizontal > .ant-menu-submenu:hover,
+  .ant-menu-horizontal > .ant-menu-item-active,
+  .ant-menu-horizontal > .ant-menu-submenu-active,
+  .ant-menu-horizontal > .ant-menu-item-open,
+  .ant-menu-horizontal > .ant-menu-submenu-open,
+  .ant-menu-horizontal > .ant-menu-item-selected,
+  .ant-menu-horizontal > .ant-menu-submenu-selected {
+    color: #686868;
+    border: none !important;
+  }
+
+  .login {
+    // background: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 32px;
+    margin: auto;
+  }
+
+  .search-root {
+    text-align: right;
+    height: 64px;
+    line-height: 64px;
+    padding: 0px 15px;
+    width: 280px;
+
+    input {
+      border-radius: 5px;
+    }
+  }
+
+  .menu-btn {
+    margin: auto;
+    margin-left: 10px;
+    background: transparent !important;
+    border-color: #fff !important;
+    border-radius: 5px;
+    display: none;
+  }
+
+  .account-btn {
+    margin: auto;
+    margin-left: 10px;
+    background: transparent !important;
+    border-color: #fff !important;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 1024px) {
+    .ant-menu,
+    .search-root {
+      display: none !important;
+    }
+    .menu-btn {
+      display: block !important;
+    }
+  }
+}
+
+.header-blue {
+  background-color: #473f92de !important;
+}
+
+.ant-drawer {
+  .ant-drawer-header {
+    padding: 8px 24px;
+    background-color: #473f92de !important;
+  }
+
+  .ant-drawer-body {
+    padding: 0px !important;
+    .ant-menu {
+      width: 100% !important;
+    }
+  }
+}

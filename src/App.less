@@ -1,0 +1,218 @@
+@import "~antd/dist/antd.less";
+@import "~antd/lib/style/index";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Berkshire+Swash&display=swap");
+
+body {
+  background: #fff;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.ant-layout-content {
+  margin: 63px 0px 0px !important;
+  padding: 10px;
+  height: calc(100vh - 63px);
+  background: #fff;
+  overflow: hidden auto;
+}
+
+.ant-layout-sider-light {
+  background-color: #f5f5f6 !important;
+  .ant-menu-light {
+    background-color: #f5f5f6 !important;
+  }
+}
+
+// .site-layout-background{
+//   background: unset !important;
+// }
+.profile-details-bx {
+  // height: 120px;
+  display: flex;
+  padding: 25px 0px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 16px; */
+  // background: rgba(255, 255, 255, 0.2);
+  // border-bottom: 1px solid #ccc;
+  .ant-avatar {
+    margin-bottom: 6px;
+  }
+  .user-name {
+    // color: white;
+  }
+  .role {
+  }
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+[data-theme="dark"] .site-layout-sub-header-background {
+  background: #141414;
+}
+
+.top-fix-header {
+  width: unset !important;
+  box-shadow: 4px 2px 8px #f0f1f2;
+  position: fixed;
+  z-index: 1;
+  // width: 100%;
+  display: flex;
+  padding: 0 15px !important;
+  position: fixed;
+  z-index: 1;
+  /* width: 100%; */
+  right: 0;
+  display: flex;
+  left: 200px;
+  background: #ffffff !important;
+
+  .right-menu {
+    margin-left: auto;
+    margin-right: 12px;
+
+    span {
+      // margin-left: 10px;
+    }
+
+    .ant-dropdown-trigger {
+      &:first-child {
+        margin-right: 20px !important;
+      }
+    }
+  }
+
+  .menu-btn {
+    // color: #fff;
+    // margin: auto 0px;
+  }
+}
+
+.loading-root {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+
+  .ant-spin-spinning {
+    margin: auto;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// .container {
+//     width: 100%;
+//     align-self: center;
+//     margin: auto;
+//     max-width: 1280px;
+// }
+
+// .make-container(@minWidth, @breakpoint) {
+//     @media (min-width: @minWidth) {
+//         .container {
+//             max-width: @breakpoint;
+//         }
+//     }
+// }
+
+// .make-container(@screen-xs-min, @screen-xs);
+// .make-container(@screen-sm-min, @screen-sm);
+// .make-container(@screen-md-min, @screen-md);
+// .make-container(@screen-lg-min, @screen-lg);
+// .make-container(@screen-xl-min, @screen-xl);
+// .make-container(@screen-xxl-min, @screen-xxl);
+
+.inMobile {
+  display: none !important;
+}
+
+@media (max-width: 576px) {
+  .inMobile {
+    // display: inherit !important;
+    display: unset !important;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 70rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.notification-menu {
+  a {
+    white-space: normal !important;
+  }
+}
+
+.notification-not-found{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  color: #ccc;
+  text-align: center;
+}
+
+.t-center {
+  text-align: center !important;
+}
+
+.d-flex {
+  display: flex;
+}
+.j-center {
+  justify-content: center;
+}
+
+.j-space{
+  justify-content: space-between;
+}

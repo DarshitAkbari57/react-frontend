@@ -1,0 +1,239 @@
+{
+    "title": "Magical Kerala Tour",
+    "description": "Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals.",
+    "intro": "This is educational-cum-leisure trip which has the right balance of learning and fun.",
+    "duration": "7N/8D",
+    "destination": "2N Dalhousie - 1N Bir - 2N Manali",
+    "month_of_travel": "September",
+    "status": "Under Review",
+    "cover_image": "/assets/img/kerala.gif",
+    "operator": {
+        "img": "/assets/img/logo_solo.png",
+        "name": "Sailsmith LLP",
+        "ratting": "4.5/5",
+        "friends": "10k+"
+    },
+    "quotation": "14600",
+    "customise": {
+        "img": "/assets/img/logo_solo.png",
+        "name": "Margil Gandhi",
+        "position": "Tour Manager"
+    },
+    "places": [
+        {
+            "title": "Mumbai - Delhi",
+            "intro": "This is short info",
+            "description": "This is a description.",
+            "images": ["/assets/img/kerala.gif", "/assets/img/b15.jpg", "/assets/img/b17.jpg"]
+        },
+        {
+            "title": "Overnight Journey",
+            "intro": "This is short info",
+            "description": "This is a description.",
+            "images": ["/assets/img/b3.jpg", "/assets/img/b15.jpg", "/assets/img/b17.jpg"]
+        },
+        {
+            "title": "Delhi - Amritsar",
+            "intro": "This is short info",
+            "description": "This is a description.",
+            "images": ["/assets/img/uttarakhand.gif", "/assets/img/b15.jpg", "/assets/img/b17.jpg"],
+            "youtube_link": "https://www.youtube.com/embed/TsK4O8BR244?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&modestbranding=1&controls=0&showinfo=1&mute=1"
+        },
+        {
+            "title": "Wagha Border",
+            "intro": "This is short info",
+            "description": "This is a description.",
+            "images": ["/assets/img/b15.jpg", "/assets/img/b15.jpg", "/assets/img/b17.jpg"]
+        },
+        {
+            "title": "Delhi - Mumbai",
+            "intro": "This is short info",
+            "description": "This is a description.",
+            "images": ["/assets/img/b17.jpg", "/assets/img/b15.jpg", "/assets/img/b17.jpg"]
+        }
+    ],
+    "day_wise": [
+        {
+            "title": "Mumbai - Delhi",
+            "description": "Assemble at BDTS by 8AM. Board your train and begin overnight journey towards Delhi.",
+            "date": "22 October, Friday",
+            "note": "Make sure you reach station an hour prior to departure.",
+            "journey": "Overnight by Train",
+            "highlight": "Group Games",
+            "meals": "Dinner (Packed)",
+            "more": "Ice-cream Night",
+            "sightseeing": "N/A",
+            "images": ["/assets/img/b3.jpg", "/assets/img/b15.jpg", "/assets/img/b17.jpg"]
+        },
+        {
+            "title": "Delhi - Amritsar",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.",
+            "date": "23 October, Friday",
+            "note": "Make sure you carry winter clothing.",
+            "stay": "Pride Dwivendi",
+            "highlight": "DJ Night & Boating",
+            "meals": "B, L (Enroute) & D",
+            "more": "Rafting, Paragliding",
+            "sightseeing": "1. Dochula Pass, 2. Punakha Dzong",
+            "images": ["/assets/img/b17.jpg", "/assets/img/b15.jpg", "/assets/img/b3.jpg"]
+        },
+        {
+            "title": "Mumbai - Delhi",
+            "description": "Assemble at BDTS by 8AM. Board your train and begin overnight journey towards Delhi.",
+            "date": "24 October, Friday",
+            "note": "Make sure you reach station an hour prior to departure.",
+            "journey": "Overnight by Train",
+            "highlight": "Group Games",
+            "meals": "Dinner (Packed)",
+            "more": "Ice-cream Night",
+            "sightseeing": "N/A",
+            "images": ["/assets/img/b3.jpg", "/assets/img/b17.jpg", "/assets/img/b15.jpg"]
+        }
+    ],
+    "exclusivity": {
+        "title": "We value experiences.",
+        "intro": "Know what sets apart from the rest.",
+        "description": "The entire tour is fully customized as per your requirement.",
+        "exclusivities": [
+            {
+                "title": "Outdoor Cinema",
+                "description": "This is a description.",
+                "image": "/assets/img/movie.gif"
+            },
+            {
+                "title": "Horror Story Night",
+                "description": "This is a description.",
+                "image": "/assets/img/horror.gif"
+            },
+            {
+                "title": "Rafting",
+                "description": "This is a description.",
+                "image": "/assets/img/rafting.gif"
+            },
+            {
+                "title": "DJ Night",
+                "description": "This is a description.",
+                "image": "/assets/img/dj.gif"
+            },
+            {
+                "title": "Team Activities",
+                "description": "This is a description.",
+                "image": "/assets/img/team.gif"
+            }
+        ]
+    },
+    "hotel": {
+        "title": "Only luxury properties.",
+        "intro": "4 star and above only.",
+        "description": "Comfort is our top priority.",
+        "hotels": [
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/hotel1.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/hotel2.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/hotel3.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/hotel1.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/hotel2.jpg"
+            }
+        ]
+    },
+    "transport": {
+        "title": "Push back seats.",
+        "intro": "Travel comfortably.",
+        "description": "Our drivers have experience of over 10+ years.",
+        "transports": [
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/bus1.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/bus2.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/bus3.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/bus1.jpg"
+            },
+            {
+                "title": "Test",
+                "description": "This is a description.",
+                "image": "/assets/img/bus2.jpg"
+            }
+        ]
+    },
+    "terms_and_condition": {
+        "title": "Terms to abide by",
+        "intro": "No one reads.",
+        "description": "Important guidelines you may not want to miss.",
+        "terms_and_conditions": [
+            {
+                "title": "General Terms",
+                "description": "This is a General Terms description."
+            },
+            {
+                "title": "Cancellation Policy",
+                "description": "This is a Cancellation Policy description."
+            },
+            {
+                "title": "Itinerary Accuracy",
+                "description": "This is a Itinerary Accuracy description."
+            },
+            {
+                "title": "Installment Policy",
+                "description": "This is a Installment Policy description."
+            },
+            {
+                "title": "Travel Insurance",
+                "description": "This is a Travel Insurance description."
+            }
+        ]
+    },
+    "faq": {
+        "title": "For any doubt",
+        "intro": "Your questions answered.",
+        "description": "Important stuff you may not want to miss.",
+        "faqs": [
+            {
+                "title": "Q: By which railway class will the entire travel be?",
+                "description": "Vulputate pretium purus porttitor amet nisl amet gravida aliquam sed commodo at nibh at id natoque eget ultricies amet neque felis facilisis ipsum auctor et volutpat ipsum aliquam sed duis mauris elementum ante consectetur quisque nulla parturient dolor dolor amet aliquam ipsum, dolor elit urna molestie turpis orci ultricies egestas nulla nullam id aliquam faucibus iaculis interdum tellus feugiat suspendisse auctor turpis sit luctus tristique vel id erat dui et cras at faucibus consequat blandit aenean viverra phasellus ullamcorper ligula lacus eleifend"
+            },
+            {
+                "title": "Q: Which Industries are we going to go?",
+                "description": "This is a Cancellation Policy description."
+            },
+            {
+                "title": "Q: I want to cancel the tour. What are the cancellation charges?",
+                "description": "This is a Itinerary Accuracy description."
+            },
+            {
+                "title": "Q: In case of any medical emergency, will I be covered?",
+                "description": "This is a Installment Policy description."
+            }
+        ]
+    }
+}

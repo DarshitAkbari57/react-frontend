@@ -1,0 +1,132 @@
+.message-root {
+  .active-chat-list {
+    .item {
+      display: flex;
+      // border-bottom: 1px solid #f1f1f1;
+      padding: 10px 10px;
+      // margin-bottom: 7px;
+      // padding-top: 0px;
+      padding-bottom: 10px;
+
+      .avtar-div {
+        justify-content: center;
+        height: -webkit-fill-available;
+        margin: auto 0;
+        margin-right: 10px;
+      }
+
+      .name {
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .count {
+          background: #ccc;
+          padding: 3px 7px;
+          margin-top: -6px;
+          border-radius: 10px;
+          font-size: 12px;
+        }
+      }
+
+      &:hover {
+        background-color: #e6f7ff;
+        color: #1890ff;
+        // border-radius: 15px;
+      }
+    }
+    .active {
+      background-color: #ececec;
+    }
+  }
+
+  .ant-row {
+    height: 100%;
+    .ant-col {
+      height: 100%;
+    }
+  }
+
+  .chat-list-col {
+    background: #f9f9fa;
+  }
+
+  .input-search {
+    border-radius: 2px;
+    background: #f5f5f6;
+    color: inherit;
+    margin-bottom: 12px;
+    margin: 10px;
+    width: -webkit-fill-available;
+  }
+  .top-user-details {
+    border-bottom: 1px solid rgba(160, 175, 185, 0.15);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: lightslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f6;
+  }
+
+  .message-room {
+    // height: 100%;
+    height: -webkit-fill-available;
+    overflow: hidden scroll;
+  }
+
+  .message-input-root {
+    border-top: 1px solid rgba(160, 175, 185, 0.15);
+    // position: absolute;
+    // bottom: -161px;
+    width: 100%;
+
+    .input-option {
+      display: flex;
+      align-items: center;
+      margin-top: 4px;
+      margin-left: 8px;
+
+      img {
+        width: 16px;
+        opacity: 0.5;
+        margin: 3px;
+        cursor: pointer;
+      }
+    }
+    .input-btn-div {
+      display: flex;
+      align-items: center;
+
+      .input-text {
+        border: 0px;
+      }
+    }
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    // overflow:  hidden scroll;
+
+    .item {
+      padding: 10px;
+      background-color: #eaeaea;
+      width: max-content;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+
+    .send {
+      margin-left: auto;
+      background-color: #edf8fe;
+    }
+
+    .receiver {
+    }
+  }
+}

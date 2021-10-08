@@ -1,0 +1,139 @@
+.dashboard {
+    .count-card-col {
+        width: -webkit-fill-available;
+    }
+
+    .chart-line{
+        overflow: auto;
+    }
+
+    .count-card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+        margin-top: 20px;
+
+        .ant-card-body {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            height: inherit;
+            width: inherit;
+        }
+
+        .left-img {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: #ea5d5e;
+            span{
+                font-size: 35px;
+                margin: auto;
+                color: #fff;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        // .left-img {
+        //     width: 80px;
+        //     height: 100%;
+
+        //     display: flex;
+        //     justify-content: center;
+
+        //     img {
+        //         width: 40px;
+        //         height: 40px;
+        //         margin: auto;
+        //     }
+        // }
+
+        .right-data {
+            width: 60%;
+            text-align: center;
+
+            .count {
+                font-size: 32px;
+                font-weight: bold;
+            }
+
+            .title {
+                color: #b7b7b7;
+                font-size: 20px;
+                margin-top: 20px;
+
+            }
+        }
+    }
+
+    .execution-chart-container {
+        margin-top: 40px;
+
+        .execution-chart-count-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+
+            .ant-divider-vertical {
+                height: auto;
+                border-left: 1px solid rgba(0, 0, 0, 0.3);
+            }
+
+            .execution-chart-count {
+                padding: 0px 20px;
+                margin: 0px 20px;
+
+                .title {
+                    font-size: 22px;
+
+                }
+
+                .count {
+                    font-size: 44px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .success {
+        color: #1bb194;
+    }
+
+    .failure {
+        color: #ea5d5e;
+    }
+
+    .mt-4 {
+        margin-top: 40px;
+    }
+
+    .top-flows-container {
+        .flow {
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+            
+            .title {
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .status {
+                font-size: 16px;
+                display: flex;
+            }
+
+            .success {
+                margin-right: 15px;
+            }
+        }
+    }
+}

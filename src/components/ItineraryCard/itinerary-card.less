@@ -1,0 +1,53 @@
+.itinerary-card-container {
+  max-width: 1300px;
+  margin: 25px auto;
+  background: #f0f2f5;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 3px;
+
+  .itinerary-card-img {
+    width: 100%;
+    object-fit: cover;
+    height: 190px;
+    border-radius: 3px;
+  }
+
+  .itinerary-card-detail-wrapper {
+    padding: 0 15px;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 567px) {
+      border: none;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+      margin: 0px 15px;
+      padding: 15px 0;
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .id {
+      text-transform: uppercase;
+      border: 1px solid #ccc;
+      padding: 0px 5px;
+      background: #e8e8e8;
+      width: fit-content;
+    }
+  }
+  .itinerary-card-info-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .more-info-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

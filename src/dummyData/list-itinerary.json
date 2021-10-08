@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Magical Kerala Tour",
+        "description": "Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals.",
+        "intro": "This is educational-cum-leisure trip which has the right balance of learning and fun.",
+        "duration": "7N/8D",
+        "destination": "2N Dalhousie - 1N Bir - 2N Manali",
+        "month_of_travel": "September",
+        "status": "Under Review",
+        "cover_image": "/assets/img/kerala.gif",
+        "operator": {
+            "img": "/assets/img/logo_solo.png",
+            "name": "Sailsmith LLP",
+            "ratting": "4.5/5",
+            "friends": "10k+"
+        },
+        "quotation": "14600",
+        "customise": {
+            "img": "/assets/img/logo_solo.png",
+            "name": "Margil Gandhi",
+            "position": "Tour Manager"
+        }
+    },
+    {
+        "title": "Magical Kerala Tour",
+        "description": "Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals.",
+        "intro": "This is educational-cum-leisure trip which has the right balance of learning and fun.",
+        "duration": "7N/8D",
+        "destination": "2N Dalhousie - 1N Bir - 2N Manali",
+        "month_of_travel": "September",
+        "status": "Under Review",
+        "cover_image": "/assets/img/kerala.gif",
+        "operator": {
+            "img": "/assets/img/logo_solo.png",
+            "name": "Sailsmith LLP",
+            "ratting": "4.5/5",
+            "friends": "10k+"
+        },
+        "quotation": "14600",
+        "customise": {
+            "img": "/assets/img/logo_solo.png",
+            "name": "Margil Gandhi",
+            "position": "Tour Manager"
+        }
+    }
+]
